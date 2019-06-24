@@ -46,7 +46,7 @@
       border
       height="300"
       :data.sync="tableData"
-      :select-config="{labelProp: 'name', checkMethod}">
+      
       <vxe-table-column type="selection" label="All"></vxe-table-column>
       <vxe-table-column prop="sex" label="Sex"></vxe-table-column>
       <vxe-table-column prop="age" label="Age"></vxe-table-column>
